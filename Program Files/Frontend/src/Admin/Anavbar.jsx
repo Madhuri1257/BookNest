@@ -17,7 +17,7 @@ const Anavbar = () => {
             <Link to="/users" style={{padding:"10px",color:"white",textDecoration:"none"}}>Users</Link>
             <Link to="/sellers" style={{padding:"10px",color:"white",textDecoration:"none"}}>Sellers</Link>
             <Link to="/" style={{padding:"10px",color:"white",textDecoration:"none"}}>Logout</Link>
-            <h4 style={{color:"white",paddingTop:"10px"}}>{JSON.parse(get).name} </h4>
+            <h4 style={{color:"white",paddingLeft:"10px",paddingTop:"10px"}}>{JSON.parse(get).name} </h4>
             
           </Nav>
         </Navbar.Collapse>

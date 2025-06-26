@@ -18,8 +18,9 @@ const Snavbar = () => {
             <Link to="/addbook" style={{padding:"10px",color:"white",textDecoration:"none"}}>Add Books</Link>
             <Link to="/orders" style={{padding:"10px",color:"white",textDecoration:"none"}}>Orders</Link>
             <Link to="/myproducts" style={{padding:"10px",color:"white",textDecoration:"none"}}>Myproducts</Link>
+            
             <Link to="/" style={{paddingLeft:"10px",paddingTop:"10px",color:"white",textDecoration:"none"}}>Logout</Link>
-            <h4 style={{color:"white",paddingTop:"10px"}}>{JSON.parse(get).name} </h4>
+            <h4 style={{color:"white",paddingLeft:"10px",paddingTop:"10px"}}>{JSON.parse(get).name} </h4>
             
           </Nav>
         </Navbar.Collapse>

@@ -17,8 +17,9 @@ const Unavbar = () => {
             <Link to="/uproducts" style={{padding:"10px",color:"white",textDecoration:"none"}}>Books</Link>
             <Link to="/wishlist" style={{padding:"10px",color:"white",textDecoration:"none"}}>Wishlist</Link>
             <Link to="/myorders" style={{padding:"10px",color:"white",textDecoration:"none"}}>My orders</Link>
+            <Link to="/Feedback" style={{padding:"10px",color:"white",textDecoration:"none"}}>Feedback</Link>
             <Link to="/" style={{paddingLeft:"10px",paddingTop:"10px",color:"red",textDecoration:"none"}}>Logout</Link>
-            <h4 style={{color:"white",paddingTop:"10px"}}>  {JSON.parse (get).name}</h4>
+            <h4 style={{color:"white",paddingLeft:"10px",paddingTop:"10px"}}>  {JSON.parse (get).name}</h4>
           </Nav>
         </Navbar.Collapse>
       </Container>
