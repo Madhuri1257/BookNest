@@ -1,1 +1,1 @@
-BookNest is a book selling website where users can buy and sellers and sell their books .
+BookNest is a platform for buying and selling books. It features distinct roles for general users, sellers, and administrators, each with tailored functionalities like browsing, cart management, book listing, and platform oversight. It's built using the MERN stack (MongoDB, Express.js, React.js, Node.js) to provide a robust and secure online experience.
