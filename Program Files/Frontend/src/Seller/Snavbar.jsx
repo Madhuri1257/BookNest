@@ -9,7 +9,7 @@ const Snavbar = () => {
   return (
     <Navbar bg="" variant="dark" expand="lg" style={{backgroundColor:"Black"}}>
       <Container>
-        <Navbar.Brand ><Link to='/shome' style={{color:"white",textDecoration:"none"}}>BookStore(Seller)</Link></Navbar.Brand>
+        <Navbar.Brand ><Link to='/shome' style={{color:"white",textDecoration:"none"}}>BookNest(Seller)</Link></Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ml-auto" >
